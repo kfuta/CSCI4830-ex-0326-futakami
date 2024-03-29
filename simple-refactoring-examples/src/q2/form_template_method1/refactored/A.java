@@ -19,7 +19,6 @@ public class A {
 abstract class Template {
    int common(int min, int max) {
       int sum = 0;
-      // TODO: Replace the FOR statement below with your answer.
       for (int i = min; i <= max; i++) {
     	  sum += apply(i);
       }
@@ -33,7 +32,6 @@ class M1 extends Template {
 
    @Override
    int apply(int i) {
-      // TODO: Replace the statement below with your answer.
       return i;
    }
 }
@@ -42,7 +40,6 @@ class M2 extends Template {
 
    @Override
    int apply(int i) {
-      // TODO: Replace the statement below with your answer.
       return i * i;
    }
 }
